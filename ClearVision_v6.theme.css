@@ -1,17 +1,5 @@
 /**
- * @name ClearVision
- * @author ClearVision Team
- * @version 6.3.0
- * @description Highly customizable theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://clearvision.github.io
- * @invite dHaSxn3
- */
-
-/* Credits to Zerthox for making the original theme. */
-
-/**
- * @name ewgsseeee
+ * @name mizuk
  * @author ClearVision Team
  * @version 6.3.0
  * @description Highly customizable and beautiful theme for BetterDiscord.
@@ -26,26 +14,26 @@
 @import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
 
 :root {
-  --main-color: #5F839F;
-  --hover-color: #76597B;
+  --main-color: #8B5C8F;
+  --hover-color: #643267;
   --success-color: #43b581;
   --danger-color: #982929;
   --url-color: var(--main-color);
-  --background-image: url('https://i.imgur.com/EbOfmgE.jpg');
-  --background-shading: 94%;
-  --background-position: center;
+  --background-image: url('https://i.imgur.com/2tBUdQ6.jpg');
+  --background-shading: 100%;
+  --background-position: center right;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 102%;
+  --background-brightness: 100%;
   --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 3px;
-  --background-overlay: rgb(24,21,21,0.53);
-  --user-popout-image: url('https://i.imgur.com/gLTZpBT.jpg');
-  --user-popout-position: center;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
+  --user-popout-image: url('https://i.imgur.com/rgrKenL.jpg');
+  --user-popout-position: Bottom center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
@@ -54,8 +42,8 @@
   --user-popout-saturation: 100%;
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
-  --user-popout-blur: 1px;
-  --user-modal-image: url('https://i.imgur.com/CUBzChm.jpg');
+  --user-popout-blur: 3px;
+  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -65,13 +53,13 @@
   --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
-  --user-modal-blur: 0px;
-  --home-icon: url('https://i.imgur.com/i6oYADY.png');
+  --user-modal-blur: 3px;
+  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: center;
-  --home-size: 59px;
-  --channel-unread: #F18D8D;
-  --channel-color: rgb(255,255,255,0.3);
-  --muted-color: rgb(79,3,3,1);
+  --home-size: 40px;
+  --channel-unread: #E37DCC;
+  --channel-color: rgba(255,255,255,0.3);
+  --muted-color: rgb(107,7,85,0.62);
   --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
@@ -97,12 +85,12 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
-  --rs-small-spacing: 0px;
-  --rs-medium-spacing: 0px;
-  --rs-large-spacing: 0px;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
   --rs-small-width: 2px;
-  --rs-medium-width: 2.5px;
-  --rs-large-width: 2.5px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
   --rs-avatar-shape: 50%;
   --rs-online-color: #43b581;
   --rs-idle-color: #faa61a;
@@ -115,5 +103,8 @@
 }
 
 /* Any custom CSS below here */
+
+
+
 
 
